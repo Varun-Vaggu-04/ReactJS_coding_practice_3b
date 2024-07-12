@@ -1,0 +1,59 @@
+.card-1 {
+    border-top: 5px solid #ff4f64;
+  }
+  
+  .card-2 {
+    border-top: 5px solid #00a8e7;
+  }
+  
+  .card-3 {
+    border-top: 5px solid #44c4a1;
+  }
+  
+  .card-4 {
+    border-top: 5px solid #fcc200;
+  }
+  
+  /* Write CSS code here. */
+  .Technology-container li {
+    flex-basis: calc(
+      50% - 10px
+    ); /* Set initial size to 50% of the container with some margin */
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 13px 18px;
+    margin: 0;
+    position: relative;
+    min-height: 50%;
+    width: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .technology-title {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  
+  .technology-para {
+    color: #64748b;
+    font-family: 'Roboto';
+    font-size: 12px;
+    margin: 0;
+    width: 200px;
+    margin-bottom: 80px;
+  }
+  .image-con {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  .technology-img {
+    width: 70px;
+    height: 75px;
+    margin-right: 20px;
+  }
+  
